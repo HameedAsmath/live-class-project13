@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+}
+body {
+  font-family: "Roboto";
+  padding: 5px;
+}
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+header {
+  margin-top: 15px;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  background-color: rgb(102, 79, 194);
+  padding: 25px;
+}
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  margin: 15px 25px;
+}
+nav img {
+  height: 35px;
+  margin: 15px 25px;
+}
+nav ul li {
+  font-weight: lighter;
+  margin-left: 1.8rem;
+  color: #fff;
+  font-size: 1rem;
+}
+nav ul li:last-child {
+  background-color: rgb(5, 168, 204);
+  padding: 8px 15px;
+}
+nav ul li:first-child {
+  color: blue;
+  border-bottom: 1px solid rgb(243, 238, 174);
+}
+.nav-bottom {
+  display: flex;
+  margin: 3%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bottom-left-container h1 {
+  color: #fff;
+  font-size: 3rem;
+}
+.nav-bottom-left-container p {
+  margin-top: 25px;
+  color: #fff;
+  font-weight: lighter;
+}
+.banner-right-img {
+  height: 400px;
+}
+/* content */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3%;
+}
+.content-left img {
+  height: 400px;
+}
+.content-right h1 {
+  margin-bottom: 15px;
+}
+.content-right h3 {
+  margin-top: 25px;
+}
+.content-right p {
+  font-size: 12px;
+  color: rgb(67, 67, 67);
+  margin-top: 10px;
+}
+/* footer */
+footer > h2 {
+  text-align: center;
+}
+.footer-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3%;
+}
+.footer-card {
+  background-color: #fff;
+  padding: 8px;
+  box-shadow: 5px 5px 5px #9a9a9a, -5px -5px 5px #d9d9d9;
+  border-radius: 5px;
+}
+.footer-card-content {
+  color: #fff;
+  background-color: rgb(121, 78, 221);
+  border-radius: 5px;
+  text-align: center;
+}
+.footer-card > img {
+  height: 30px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin-bottom: 10px;
+}
+.footer-card-content p {
+  font-size: 12px;
+  margin-top: 5px;
+}
