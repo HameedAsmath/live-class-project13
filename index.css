@@ -52,7 +52,7 @@ nav ul li:first-child {
 .nav-bottom {
   display: flex;
   margin: 3%;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .nav-bottom-left-container h1 {
@@ -70,7 +70,7 @@ nav ul li:first-child {
 /* content */
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 3%;
 }
@@ -119,4 +119,31 @@ footer > h2 {
 .footer-card-content p {
   font-size: 12px;
   margin-top: 5px;
+}
+.menu-container {
+  display: none;
+}
+
+/* media queries */
+@media only screen and (max-width: 720px) {
+  nav ul {
+    display: none;
+  }
+  .menu-container {
+    display: block;
+  }
+  .nav-bottom,
+  main {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer h2 {
+    margin-top: 25px;
+  }
+  .footer-card-container {
+    flex-direction: column;
+  }
+  .footer-card {
+    margin-top: 25px;
+  }
 }
